@@ -1,0 +1,25 @@
+body {
+    direction: rtl;
+}
+
+.main__container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.main__container .content__top {
+    display: flex;
+    gap: 10px;
+
+}
+
+.content__top .content__input {
+    width: 25rem;
+}
+
+.content__btn i {
+    display: block;
+
+}
+ 
